@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@layer base {
+  body {
+    overflow-x: hidden
+  }
+}
+
 @utility primary-b-g-gradient {
   @apply bg-gradient-to-r from-blue-600 to-green-600
 }
