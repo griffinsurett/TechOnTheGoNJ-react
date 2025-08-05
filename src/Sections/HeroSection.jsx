@@ -20,7 +20,7 @@ function HeroSection() {
       <div className="inner-section text-center relative z-10">
         <h1 className="h2 text-white mb-6">
           <span className="block">Tech Support Is</span>
-          <span className="text-blue-300">Just Around The Corner</span>
+          <span className="text-primary-b-g-gradient">Just Around The Corner</span>
         </h1>
         <p className="text-xl sm:text-2xl text-gray-200 small-under-text max-w-4xl mx-auto leading-relaxed">
           We're the friendly middlemen between you and frustrating tech support.
