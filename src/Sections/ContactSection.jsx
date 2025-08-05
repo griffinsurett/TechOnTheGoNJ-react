@@ -3,7 +3,7 @@ import React from "react";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { companyData } from "../siteData";
 import ContactInfo from "../components/LoopComponents/ContactInfo";
-import ContactForm from "../components/ContactForm";
+import ContactForm from "../components/Forms/ContactForm";
 
 const contactSectionData = {
   title: "Ready to Stop Fighting With Technology?",
