@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@utility primary-b-g-gradient {
+  @apply bg-gradient-to-r from-blue-600 to-green-600
+}
+
+@utility secondary-b-g-gradient {
+  @apply bg-gradient-to-r from-blue-500 to-green-500
+}
+
+@utility primary-faded-b-g-gradient {
+  @apply bg-gradient-to-r from-blue-100 to-green-100;
+}
+
+@utility secondary-faded-b-g-gradient {
+  @apply bg-gradient-to-br from-blue-50 to-green-50
+}
+
+@utility primary-b-b-gradient {
+  @apply bg-gradient-to-r from-blue-600 to-blue-700
+}
+
+@utility primary-p-b-gradient {
+  @apply bg-gradient-to-r from-purple-500 to-blue-500
+}
+
+@utility secondary-p-b-gradient {
+  @apply bg-gradient-to-r from-purple-50 to-blue-50
+}
+
+@utility danger-gradient {
+  @apply bg-gradient-to-r from-orange-50 to-red-50
+}
+
+@utility main-transition {
+  @apply transition-all duration-300
+}
+
+@utility button {
+  @apply main-transition inline-flex items-center justify-center space-x-2 rounded-full text-lg font-semibold;
+  }
+
+@layer components {
+  .bg-primary-b-g-gradient {
+    @apply primary-b-g-gradient text-white;
+  }
+  .text-primary-b-g-gradient {
+    @apply bg-clip-text primary-b-g-gradient text-transparent;
+  }
+  .border-primary-b-g-gradient {
+    @apply border-2 primary-b-g-gradient bg-clip-border;
+  }
+
+  .xsmall-under-text {
+    @apply mb-4
+  }
+    .small-under-text {
+    @apply mb-8
+  }
+  .main-under-text {
+    @apply mb-12
+  }
+  .large-under-text {
+    @apply mb-16
+  }
+
+  .section {
+    @apply py-16 sm:py-20;
+  }
+  .inner-section {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8
+}
+
+  button {
+    cursor: pointer;
+  }
+  .button-large {
+    @apply px-8 py-4;
+  }
+
+  .button-regular {
+    @apply px-6 py-3;
+  }
+
+  .h2 {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-bold;
+  }
+
+  .h3 {
+    @apply text-3xl sm:text-4xl font-bold;
+  }
+
+  .h4 {
+    @apply text-xl font-bold;
+  }
+}
