@@ -35,7 +35,7 @@ const middlemanCardsData = [
 function MiddlemanSection() {
   const d = middlemanSectionData;
   return (
-    <section className="section primary-b-g-gradient">
+    <section id="middlemen" className="section primary-b-g-gradient">
       <div className="inner-section">
         <div className="text-center text-white main-under-text">
           <h3 className="h3 mb-6">{d.title}</h3>

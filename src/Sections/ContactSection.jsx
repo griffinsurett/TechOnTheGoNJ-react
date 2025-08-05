@@ -30,8 +30,9 @@ function ContactSection() {
             icon={Phone}
             title="Call or Text"
             info={companyData.phone}
+            href={`tel:${companyData.phone}`}
           />
-          <ContactInfo icon={Mail} title="Email Us" info={companyData.email} />
+          <ContactInfo icon={Mail} title="Email Us" info={companyData.email} href={`mailto:${companyData.email}`} />
           <ContactInfo
             icon={MapPin}
             title="Based in"
@@ -42,7 +43,7 @@ function ContactSection() {
           <h4 className="h4 text-white mb-3">{d.offer.title}</h4>
           <p className="text-white/90">{d.offer.description}</p>
         </div>
-        <Button variant="tertiary" className="button-regular mt-6">
+        <Button variant="secondary" className="button-regular mt-6">
           {d.cta}
         </Button>
       </div>

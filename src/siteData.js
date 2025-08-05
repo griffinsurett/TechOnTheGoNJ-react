@@ -12,6 +12,7 @@ export const companyData = {
 
 export const navigationData = [
   { name: "Home", href: "/" },
+  { name: "Help", href: "#middlemen" },
   { name: "Services", href: "#services" },
   { name: "AI Help", href: "#ai" },
   { name: "Why Us", href: "#about" },

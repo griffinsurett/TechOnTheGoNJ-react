@@ -14,7 +14,7 @@ import Footer from "./Sections/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen w-screen overflow-x-hidden secondary-faded-b-g-gradient">
+    <div className="min-h-screen w-screen secondary-faded-b-g-gradient">
       <Header />
       <HeroSection />
       <MiddlemanSection />
@@ -23,7 +23,6 @@ function App() {
       <WhyChooseUsSection />
       <ServiceAreaSection />
       <TestimonialsSection />
-      <VideoTestimonialsSection />
       <ContactSection />
       <Footer />
     </div>

@@ -9,9 +9,9 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
+    <header className="bg-white sticky top-0 w-full backdrop-blur-md shadow-sm z-50">
       <div className="inner-section flex justify-between items-center py-4">
-        <div className="flex items-center space-x-3">
+        <a href="/" className="flex items-center space-x-3">
           <div className="secondary-b-g-gradient p-2 rounded-lg">
             <Settings className="h-6 w-6 text-white" />
           </div>
@@ -23,7 +23,7 @@ function Header() {
               {companyData.subtitle}
             </p>
           </div>
-        </div>
+        </a>
 
         <nav className="hidden md:flex space-x-8">
           {navigationData.map((item, idx) => (
