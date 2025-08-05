@@ -1,5 +1,6 @@
 import React from "react";
 import { Brain, Shield, CheckCircle } from "lucide-react";
+import AIBenefit from "../components/LoopComponents/AIBenefit";
 
 const aiSectionData = {
   title: "AI Made Simple & Safe for Seniors",
@@ -37,20 +38,6 @@ const aiBenefitsData = [
       "AI can help you write better texts to grandchildren, create photo captions, or even help with social media posts.",
   },
 ];
-
-function AIBenefit({ title, description }) {
-  return (
-    <div className="flex items-start space-x-3">
-      <div className="bg-blue-100 p-2 rounded-full flex-shrink-0 mt-1">
-        <CheckCircle className="h-4 w-4 text-blue-600" />
-      </div>
-      <div>
-        <h5 className="font-semibold text-gray-900 mb-1">{title}</h5>
-        <p className="text-gray-600 text-sm">{description}</p>
-      </div>
-    </div>
-  );
-}
 
 function AISection() {
   const d = aiSectionData;
